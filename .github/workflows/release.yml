@@ -12,6 +12,9 @@ on:
     tags:
       - 'nightly-*'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ${{ matrix.os }}
